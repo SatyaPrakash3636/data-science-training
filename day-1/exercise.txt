@@ -9,15 +9,15 @@ PYTHON FUNDAMENTALS ASSIGNMENT
 
 DATATYPES
 
-1. Form a new string by taking 1st/3rd/6th/7th fields from the following line with ‘|’ as separator.
+6. Form a new string by taking 1st/3rd/6th/7th fields from the following line with ‘|’ as separator.
 Icrisat: x: 1001:51: global crop research institute: /home/icrisat: /bin/bash
-2. Create a two dimensional array with the following values ([1,2,3],[4,5,6]) from the keyboard
-3. Arrange the characters in the name ‘information’ in the ascending order
-4. Display all the python program files which have two characters only as part of their filename other than the extension.
+7. Create a two dimensional array with the following values ([1,2,3],[4,5,6]) from the keyboard
+8. Arrange the characters in the name ‘information’ in the ascending order
+9. Display all the python program files which have two characters only as part of their filename other than the extension.
 
 
 LOOPS
 
-1. Find whether the given three digit number is Armstrong or not
+10. Find whether the given three digit number is Armstrong or not
 (If the sum of the cubes of the individual digits of the number is equal to that number)
-2. Find the factors of a given number (ex. 36, 1*36, 2*18, 3*12 etc.)
+11. Find the factors of a given number (ex. 36, 1*36, 2*18, 3*12 etc.)
