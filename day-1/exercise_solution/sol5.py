@@ -13,5 +13,5 @@ deduction = 0.1 * base_salary
 gross_salary = base_salary + hra + da
 net_salary = gross_salary - deduction
 
-# Printing Gross Salary
+# Printing Gross Salary and Net Salary
 print(f"Your Gross Salary is: Rs {gross_salary:.2f} and Net Salary is Rs {net_salary:.2f}")
