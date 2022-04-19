@@ -6,7 +6,7 @@
 2. Display the last three characters of the word ‘computer’
 3. Find the result of the equation a2^+2ab+b2^where a=10 and b=12
 4. Display every third character in the string ‘Information ‘
-5. Find the total salary of an employee given his basic (hra=40% of basic, da is 20% of basic and  deduction 10% of gross
+5. Find the total salary of an employee given his basic (hra=40% of basic, da is 20% of basic and  deduction 10% of gross)
 
 
 ## DATATYPES
