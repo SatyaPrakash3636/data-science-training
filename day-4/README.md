@@ -4,8 +4,34 @@
 **[3. What are key features of Pandas?](#What-are-key-features-of-Pandas?)**<br>
 **[4. What are important libraries for data science?](#What-are-important-libraries-for-data-science?)**<br>
 **[5. Sample Examples](#Sample-Examples)**<br>
-        **[5.1 creating an empty data frame](#creating-an-empty-data-frame)**<br>
-        **[5.1 creating an empty data frame](#creating-an-empty-data-frame)**<br>
+    - **[5.1 creating an empty data frame](#creating-an-empty-data-frame)**<br>
+    - **[5.2 creating a data frame from  a list](#creating-a-data-frame-from-a-list)**<br>
+    - **[5.3 creating a data frame from a list-1](#creating-a-data-frame-from-a-list-1)**<br>
+    - **[5.4 create a data frame from a list thru input](#create-a-data-frame-from-a-list-thru-input)**<br>
+    - **[5.5 create a data frame from a list with type float](#create-a-data-frame-from-a-list-with-type-float)**<br>
+    - **[5.6 create a data frame from a dictionary of ndarrays/lists](#create-a-data-frame-from-a-dictionary-of-ndarrayslists)**<br>
+    - **[5.7 create a data Frame from a dictionary of ndarrays/lists with index](#create-a-data-frame-from-a-dictionary-of-ndarrayslists-with-index)**<br>
+    - **[5.8 create a data frame from a dictionary of series](#create-a-data-frame-from-a-dictionary-of-series)**<br>
+    - **[5.9 row selection](#row-selection)**<br>
+    - **[5.10 slicing the rows](#slicing-the-rows)**<br>
+    - **[5.11 addition of  rows](#addition-of-rows)**<br>
+    - **[5.12 appending one data frame with the other](#appending-one-data-frame-with-the-other)**<br>
+    - **[5.13 column selection](#column-selection)**<br>
+
+**[6. Plotting data on Graph](#plotting-data-on-graph)**<br>
+    - **[6.1 line graph](#line-graph)**<br>
+    - **[6.2 setting x and y axes for line graph](#setting-x-and-y-axes-for-line-graph)**<br>
+    - **[6.3 line graph with labels](#line-graph-with-labels)**<br>
+    - **[6.4 multiple line graphs](#multiple-line-graphs)**<br>
+    - **[6.5 multiple line graphs with colors](#multiple-line-graphs-with-colors)**<br>
+    - **[6.6 setting legends and limits for axes](#setting-legends-and-limits-for-axes)**<br>
+    - **[6.7 line graph with markers](#line-graph-with-markers)**<br>
+    - **[6.8 scattered graph](#scattered-graph)**<br>
+    - **[6.9 creating a bar chart](#creating-a-bar-chart)**<br>
+    - **[6.10 histogram](#histogram)**<br>
+    - **[6.11 pie chart](#pie-chart)**<br>
+    - **[6.12 Draw 2 plots](#draw-2-plots)**<br>
+    - **[6.13 Draw 2 plots](#draw-6-plots)**<br>
 
 ## DATA SCIENCE:
     What is data science?
@@ -61,7 +87,7 @@
     df1=pd.DataFrame(a1)
     print (df1)
 
-### creating a data frame from a list
+### creating a data frame from a list-1
     import pandas as pd
     data=[('AAA',111),('BBB',222),('CCC',333)]
     df1=pd.DataFrame(data,columns=['NAME','CODE'])
@@ -88,7 +114,7 @@
     print (df.to_string(index=False))
 
     
-### create a data frame from a list
+### create a data frame from a list with type float
     import pandas as pd
     data = [['Alex',10],['Bob',12],['Clarke',13]]
     df = pd.DataFrame(data,columns=['Name','Age'],dtype=float)
@@ -112,16 +138,6 @@
     'two' : pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd'])}
     df = pd.DataFrame(d)
     print (df)
-
-### column selection
-    import pandas as pd
-    data=[('AAA',111),('BBB',222),('CCC',333)]
-    df=pd.DataFrame(data,columns=['NAME','AGE'])
-    #total data frame
-    print (df)
-
-    #a column
-    print (df['NAME'])
 
 ### row selection
     import pandas as pd
@@ -184,20 +200,6 @@
     #concatenating data frames
     df3=pd.concat([df1,df2],axis=1)
     print (df3)
-
-### #column selection
-    import pandas as pd
-    data=[('AAA',111),('BBB',222),('CCC',333)]
-    df=pd.DataFrame(data,columns=['NAME','AGE'])
-    #total data frame
-    print (df)
-
-    #a column
-    print (df['NAME'])
-
-    #adding a new column
-    df['CITY']=['hyd','chn','bnglr']
-    print (df)
 
 ### column selection
     import pandas as pd
@@ -473,7 +475,7 @@
     plt.show()
 
 
-### Draw 2 plots:
+### Draw 2 plots
     import matplotlib.pyplot as plt
     import numpy as np
 
@@ -493,7 +495,7 @@
 
     plt.show()
 
-### Draw 6 plots:
+### Draw 6 plots
     import matplotlib.pyplot as plt
     import numpy as np
 
