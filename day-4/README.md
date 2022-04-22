@@ -4,7 +4,7 @@
 **[What are key features of Pandas?](What-are-key-features-of-Pandas?)**<br>
 **[What are important libraries for data science?](What-are-important-libraries-for-data-science?)**<br>
 **[Sample Examples](Sample-Examples)**<br>
-    **[creating an empty data frame](creating-an-empty-data-frame)**<br>
+    - **[creating an empty data frame](creating-an-empty-data-frame)**<br>
 
 ## DATA SCIENCE:
     What is data science?
