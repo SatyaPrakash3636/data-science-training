@@ -74,11 +74,14 @@
 ## Sample Examples
 
 ### creating an empty data frame
+    ```python
     import pandas as pd
     df=pd.DataFrame()
     print (df)
+    ```
 
 ### creating a data frame from  a list
+    ```python
     import pandas as pd
     a=['computer','keyboard','monitor','printer','scanner']
     a1=[('AAA',111),('BBB',222),('CCC',333)]
@@ -86,16 +89,18 @@
     print (df)
     df1=pd.DataFrame(a1)
     print (df1)
+    ```
 
 ### creating a data frame from a list-1
+    ```python
     import pandas as pd
     data=[('AAA',111),('BBB',222),('CCC',333)]
     df1=pd.DataFrame(data,columns=['NAME','CODE'])
     print (df1.to_string(index=False))
-
+    ```
 
 ### create a data frame from a list thru input
-
+    ```python
     #importing the libraries
     import pandas as pd
 
@@ -112,34 +117,44 @@
     #store this data in a data frame
     df=pd.DataFrame(data,columns=['ENAME','ECITY'])
     print (df.to_string(index=False))
+    ```
 
     
 ### create a data frame from a list with type float
+    ```python
     import pandas as pd
     data = [['Alex',10],['Bob',12],['Clarke',13]]
     df = pd.DataFrame(data,columns=['Name','Age'],dtype=float)
     print (df)
+    ```
 
 ### create a data frame from a dictionary of ndarrays/lists
+    ```python
     import pandas as pd
     data = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}
     df= pd.DataFrame(data)
     print (df)
+    ```
 
 ### create a data Frame from a dictionary of ndarrays/lists with index
+    ```python
     import pandas as pd
     data = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}
     df = pd.DataFrame(data, index=['rank1','rank2','rank3','rank4'])
     print (df)
+    ```
 
 ### create a data frame from a dictionary of series
+    ```python
     import pandas as pd
     d = {'one' : pd.Series([1, 2, 3], index=['a', 'b', 'c']),
     'two' : pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd'])}
     df = pd.DataFrame(d)
     print (df)
+    ```
 
 ### row selection
+    ```python
     import pandas as pd
     data=[('AAA',111),('BBB',222),('CCC',333)]
     df=pd.DataFrame(data,columns=['NAME','AGE'],index=['first','second','third'])
@@ -158,8 +173,10 @@
 
     #displaying basing on index
     print (df.loc['second'])
+    ```
 
 ### slicing the rows
+    ```python
     import pandas as pd
     data=[('AAA',111),('BBB',222),('CCC',333)]
     df=pd.DataFrame(data,columns=['NAME','AGE'],index=['first','second','third'])
@@ -167,8 +184,10 @@
     print (df)
 
     print (df[:1])
+    ```
 
 ### addition of  rows
+    ```python
     import pandas as pd
     #first data frame
     data1=[('AAA',111),('BBB',222),('CCC',333)]
@@ -180,8 +199,10 @@
     data2=[('PPP',777),('QQQ',888),('RRR',999)]
     df2=pd.DataFrame(data2,columns=['NAME','AGE'])
     print (df2)
+    ```
 
 ### appending one data frame with the other
+    ```python
     df1=df1.append(df2)
     print (df1.reset_index())
 
@@ -200,8 +221,10 @@
     #concatenating data frames
     df3=pd.concat([df1,df2],axis=1)
     print (df3)
+    ```
 
 ### column selection
+    ```python
     import pandas as pd
     data=[('AAA',111),('BBB',222),('CCC',333)]
     df=pd.DataFrame(data,columns=['NAME','AGE'])
@@ -222,13 +245,12 @@
     #deleting a column
     df.pop('CITY')
     print (df)
-
-
+    ```
 
 # Plotting data on Graph
 
 ### line graph
-
+    ```python
     #import necessary packages/modules
     import numpy as np
     from matplotlib import pyplot as plt
@@ -241,10 +263,11 @@
 
     #display the graph
     plt.show()
+    ```
 
 
 ### setting x and y axes for line graph
-
+    ```python
     #importing the libraries
     import numpy as np
     from matplotlib import pyplot as plt
@@ -258,10 +281,11 @@
 
     #displaying
     plt.show()
+    ```
 
 
 ### line graph with labels
-
+    ```python
     #import the libraries
     import numpy as np
     from matplotlib import pyplot as plt
@@ -279,10 +303,11 @@
 
     #display
     plt.show()
+    ```
 
 
 ### multiple line graphs
-
+    ```python
     #import statements
     from matplotlib import pyplot as plt
     import numpy as np
@@ -305,9 +330,10 @@
 
     #show
     plt.show()
+    ```
 
 ### multiple line graphs with colors
-
+    ```python
     #import statements
     from matplotlib import pyplot as plt
     import numpy as np
@@ -330,10 +356,11 @@
 
     #show
     plt.show()
+    ```
 
 
 ### setting legends and limits for axes
-
+    ```python
     #importing libraries
     from matplotlib import pyplot as plt
     import numpy as np
@@ -362,9 +389,10 @@
 
     #display
     plt.show()
+    ```
         
 ### line graph with markers
-
+    ```python
     #importing libraries
     import numpy as np
     from matplotlib import pyplot as plt
@@ -392,10 +420,11 @@
 
     #display the graph
     plt.show()
+    ```
 
 
 ### scattered graph
-
+    ```python
     #import the libraries
     from matplotlib import pyplot as plt
     import numpy as np
@@ -409,10 +438,11 @@
 
     #show
     plt.show()
+    ```
 
 
 ### creating a bar chart
-
+    ```python
     #import the libraries
     import numpy as np
     from matplotlib import pyplot as plt
@@ -436,9 +466,10 @@
 
     #displaying the graph
     plt.show()
+    ```
 
 ### histogram
-
+    ```python
     #import the libraries
     import numpy as np
     from matplotlib import pyplot as plt
@@ -454,10 +485,11 @@
 
     #display
     plt.show()
+    ```
 
 
 ### pie chart
-
+    ```python
     #import libraries
     import numpy as np
     from matplotlib import pyplot as plt
@@ -473,9 +505,11 @@
 
     #show
     plt.show()
+    ```
 
 
 ### Draw 2 plots
+    ```python
     import matplotlib.pyplot as plt
     import numpy as np
 
@@ -494,8 +528,10 @@
     plt.plot(x,y)
 
     plt.show()
+    ```
 
 ### Draw 6 plots
+    ```python
     import matplotlib.pyplot as plt
     import numpy as np
 
@@ -536,5 +572,6 @@
     plt.plot(x,y)
 
     plt.show()
+    ```
 
 
