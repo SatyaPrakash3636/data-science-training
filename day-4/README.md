@@ -39,9 +39,9 @@
 # Sample Examples
 
 ### creating an empty data frame
-import pandas as pd
-df=pd.DataFrame()
-print (df)
+    import pandas as pd
+    df=pd.DataFrame()
+    print (df)
 
 ### creating a data frame from  a list
 import pandas as pd
