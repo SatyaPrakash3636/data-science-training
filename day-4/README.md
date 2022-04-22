@@ -1,10 +1,18 @@
-# DATA SCIENCE:
+# Table of Contents
+**[DATA SCIENCE](DATA-SCIENCE)**<br>
+**[What is Pandas](What-is-Pandas)**<br>
+**[What are key features of Pandas?](What-are-key-features-of-Pandas?)**<br>
+**[What are important libraries for data science?](What-are-important-libraries-for-data-science?)**<br>
+**[Sample Examples](Sample-Examples)**<br>
+    **[creating an empty data frame](creating-an-empty-data-frame)**<br>
+
+## DATA SCIENCE:
     What is data science?
     Data Science is the field of analyzing and processing structured (formatted),
     and unstructured (unformatted, raw) data to generate valuable information
     through mathematical, statistical methods, AI & ML Algorithms.
 
-## What is Pandas?
+### What is Pandas?
     Pandas is an open source Python library that provides high performance
     tools for data manipulation & processing.
 
@@ -18,7 +26,7 @@
         3. panel:
                 three dimensional, heterogeneous, mutable size
         
-## What are key features of Pandas?
+### What are key features of Pandas?
         a. fast and efficient data frame philosophy
         b. tools for loading data from different file formats
         c. locating missing data
@@ -27,7 +35,7 @@
         g. time series
         h. aggregation, grouping of rows and columns
 
-## What are important libraries for data science?
+### What are important libraries for data science?
         numpy (array operations)
         scipy (statistical operations)
         matplotlib (visualization)
@@ -36,7 +44,7 @@
         jupyter notebook (idle)
 
         
-# Sample Examples
+## Sample Examples
 
 ### creating an empty data frame
     import pandas as pd
