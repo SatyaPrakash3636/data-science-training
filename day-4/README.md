@@ -1,10 +1,11 @@
 # Table of Contents
-**[DATA SCIENCE](DATA-SCIENCE)**<br>
-**[What is Pandas](What-is-Pandas)**<br>
-**[What are key features of Pandas?](What-are-key-features-of-Pandas?)**<br>
-**[What are important libraries for data science?](What-are-important-libraries-for-data-science?)**<br>
-**[Sample Examples](Sample-Examples)**<br>
-    - **[creating an empty data frame](creating-an-empty-data-frame)**<br>
+**[1. DATA SCIENCE](#DATA-SCIENCE)**<br>
+**[2. What is Pandas](#What-is-Pandas)**<br>
+**[3. What are key features of Pandas?](#What-are-key-features-of-Pandas?)**<br>
+**[4. What are important libraries for data science?](#What-are-important-libraries-for-data-science?)**<br>
+**[5. Sample Examples](#Sample-Examples)**<br>
+    5.1 **[5.1 creating an empty data frame](#creating-an-empty-data-frame)**<br>
+    **[5.1 creating an empty data frame](#creating-an-empty-data-frame)**<br>
 
 ## DATA SCIENCE:
     What is data science?
